@@ -1,0 +1,17 @@
+name: "FinOps-Env"
+description: "A Personal Financial Decision-Making Environment where an AI agent learns to manage a household's finances through sequential decisions."
+version: "1.0.0"
+domain: "Personal Finance"
+entrypoint: "finops_env.main:app"
+tasks:
+  - id: "task_1_easy"
+    name: "Budget Rebalancing"
+    difficulty: "easy"
+  - id: "task_2_medium"
+    name: "Debt Payoff Sequencing"
+    difficulty: "medium"
+  - id: "task_3_hard"
+    name: "Multi-Goal Financial Planning Under Uncertainty"
+    difficulty: "hard"
+authors:
+  - "Ayush Saksena , Shounak Patil , Harshil Khandelwal"
