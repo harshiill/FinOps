@@ -61,7 +61,9 @@ chmod +x run.sh
 2.Run the container:
   docker run -p 7860:7860 finops-env
   
-3.Run the baseline:
+3. pip install -r requirements.txt
+
+4.Run the baseline:
 export OPENAI_API_KEY="your-api-key-here"
 python finops_env/baseline.py
 
