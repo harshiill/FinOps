@@ -1,5 +1,5 @@
 name: "FinOps-Env"
-description: "A Personal Financial Decision-Making Environment where an AI agent learns to manage a household's finances through sequential decisions."
+description: "A Personal Financial Decision-Making Environment where an AI agent learns to manage a household's finances through sequential decisions.Our motive with FinOps-Env is to prove whether an AI can manage a household budget over 12 months without going broke. We chose personal finance because it is highly stochastic (unexpected bills happen) and requires balancing multiple goals"
 version: "1.0.0"
 domain: "Personal Finance"
 entrypoint: "finops_env.main:app"

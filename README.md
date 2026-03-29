@@ -1,6 +1,7 @@
 # FinOps-Env: Personal Financial Decision-Making Environment
 
 FinOps-Env is a production-grade OpenEnv implementation modeling complex, real-world household financial planning. 
+Our motive with FinOps-Env is to prove whether an AI can manage a household budget over 12 months without going broke. We chose personal finance because it is highly stochastic (unexpected bills happen) and requires balancing multiple goals
 
 ## Motivation
 Most LLM agents excel at discrete text tasks but struggle with long-horizon quantitative planning under uncertainty. FinOps-Env tests an agent's ability to balance competing objectives—debt minimization, emergency savings, and budget adherence—over a simulated 12-month period.
